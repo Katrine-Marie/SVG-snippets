@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
+	<defs>
+		<filter id="dropshadow" x="-10%" y="-10%" width="120%" height="120%">
+			<feColorMatrix in="SourceAlpha" type="matrix"
+				values="-1 0 0 0 1, 0 -1 0 0 1, 0 0 -1 0 1, 0 0 0 1 0"
+				result="matrix"/>
+			<feGaussianBlur in="matrix" stdDeviation="5" result="blur"/>
+			<feComposite in="SourceGraphic" in2="blur" operator="over"/>
+		</filter>
+	</defs>
+</svg>
