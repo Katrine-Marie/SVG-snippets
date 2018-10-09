@@ -1,1 +1,3 @@
-This repo will over time come to contain some SVG / HTML snippets.
+This repo contains SVG snippets that can easily be dropped into projects.
+
+Examples are: filters, patterns and shapes.
